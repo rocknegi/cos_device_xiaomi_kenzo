@@ -25,14 +25,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths_wcd9326.xml
 
-
-<<<<<<< HEAD
-=======
-# Alipay / WeChat
+#Alipay / WeChat
 PRODUCT_BOOT_JARS += \
     org.ifaa.android.manage
->>>>>>> b7c57c5... [hax]:kenzo: Initial push of Flashlight app
-
 # init.d
 # BSOD Killer
 PRODUCT_COPY_FILES += \
@@ -43,18 +38,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Flashlight
 
-
-<<<<<<< HEAD
-# Camera
-#PRODUCT_PACKAGES += \
- #   camera.msm8952 \
-  #  libqomx_core \
-   # libmm-qcamera
+#Camera
+PRODUCT_PACKAGES += \
+    camera.msm8952 \
+    libqomx_core \
+    libmm-qcamera
 
 
 
-=======
->>>>>>> b7c57c5... [hax]:kenzo: Initial push of Flashlight app
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc
