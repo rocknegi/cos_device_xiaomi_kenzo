@@ -383,3 +383,7 @@ MSM_VIDC_TARGET_LIST := msm8952
 
 $(call inherit-product, device/xiaomi/kenzo/utils.mk)
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
