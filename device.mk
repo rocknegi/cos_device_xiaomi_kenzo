@@ -181,6 +181,10 @@ PRODUCT_PACKAGES += \
     memtrack.msm8952 \
     liboverlay
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
 # Light
 PRODUCT_PACKAGES += \
     lights.msm8952
