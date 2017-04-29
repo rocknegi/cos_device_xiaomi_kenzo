@@ -129,7 +129,7 @@ TARGET_USES_MEDIA_EXTENSIONS := true
 
 # Enable HW based full disk encryption
 TARGET_HW_DISK_ENCRYPTION := true
-TARGET_CRYPTFS_HW_PATH := $(DEVICE_PATH)/cryptfs_hw
+TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/cryptfs_hw
 
 # CNE and DPM
 BOARD_USES_QCNE := true
