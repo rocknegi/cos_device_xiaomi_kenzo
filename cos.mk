@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/cos/common.mk)
 
 
-PRODUCT_NAME := coskenzo
+PRODUCT_NAME := cos_kenzo
 PRODUCT_DEVICE := kenzo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
