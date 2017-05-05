@@ -25,17 +25,16 @@ PRODUCT_COPY_FILES := device/xiaomi/kenzo/configs/apns-full-conf.xml:system/etc/
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common CARBON stuff.
-$(call inherit-product, vendor/carbon/config/common.mk)
+# Inherit some common cos stuff.
+$(call inherit-product, vendor/cos/common.mk)
 
-# Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
 
-PRODUCT_NAME := carbon_kenzo
+PRODUCT_NAME := coskenzo
 PRODUCT_DEVICE := kenzo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 PRODUCT_MANUFACTURER := xiaomi
+COS_RELEASE = true
 
 $(call inherit-product, device/xiaomi/kenzo/device.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/kenzo/device-vendor.mk)

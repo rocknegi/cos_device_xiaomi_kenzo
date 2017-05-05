@@ -4,12 +4,6 @@
     "repository"  : "LineageOS/android_packages_resources_devicesettings",
     "target_path" : "packages/resources/devicesettings",
     "revision"    : "cm-14.1"
-  },
- {
-   "remote"     : "carbon",
-   "repository" : "CarbonRom/android_kernel_xiaomi_msm8956",
-   "target_path": "kernel/xiaomi/msm8956",
-   "revision"   : "cr-5.1"
- }
+  }
  
 ]
